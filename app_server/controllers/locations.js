@@ -12,13 +12,11 @@ const locationInfo1 = (req, res) => {
 };
 const locationInfo2 = (req, res) => {
     res.render('location-info2', { title: 'Location info2' });
-};
-    
+};  
     module.exports = {
         homelist,
         locationInfo,
         addReview,
         locationInfo1,
         locationInfo2
-
     };
