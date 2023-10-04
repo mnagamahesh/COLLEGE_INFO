@@ -7,9 +7,23 @@ a {
   color: #fffefe;
 }
 .photo
-{
-  background-image: url('M:\PROJECTS\WPM\COLLEGE_INFO\public\images\download.jpeg');
+{ 
+  background-image: url('/images/iit.jpg');
   background-size: 200px;
   height: 100px;
-  width: 100px;
+  width: 200px;
+}
+.photo1
+{
+  background-image: url('/images/nit.jpg');
+  background-size: 200px;
+  height: 150px;
+  width: 200px;
+}
+.photo2
+{
+  background-image: url('/images/iiit1.webp');
+  background-size: 200px;
+  height: 150px;
+  width: 200px;
 }

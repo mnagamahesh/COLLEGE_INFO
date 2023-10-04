@@ -87,7 +87,7 @@ hr {
 
 mark {
   color: #000;
-  background: #ff0;
+  background: rgb(215, 215, 210);
 }
 
 code,
@@ -239,7 +239,7 @@ table {
   }
   pre,
   blockquote {
-    border: 1px solid #999;
+    border: 1px solid #000000;
     page-break-inside: avoid;
   }
   thead {
@@ -306,7 +306,10 @@ body {
   font-size: 14px;
   line-height: 1.428571429;
   color: #ffffff;
-  background-color: #2c2929;
+  height: 100vh;
+  background-size: cover;
+  background-image: url("/images/back.png");
+  
 }
 
 input,
@@ -362,7 +365,7 @@ img {
   max-width: 100%;
   padding: 4px;
   line-height: 1.428571429;
-  background-color: #108a93;
+  background-color: #6ae9f0;
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -377,7 +380,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #0d747c;
+  border-top: 1px solid #000000;
 }
 
 .sr-only {
@@ -550,7 +553,7 @@ h4 small,
 .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;
-  border-bottom: 1px solid #0d747c;
+  border-bottom: 1px solid #f0f0f0;
 }
 
 ul,
@@ -1561,7 +1564,7 @@ th {
 
 .table-hover > tbody > tr:hover > td,
 .table-hover > tbody > tr:hover > th {
-  background-color: #13a0aa;
+  background-color: #d5da5d;
 }
 
 table col[class*="col-"] {
@@ -1587,7 +1590,7 @@ table th[class*="col-"] {
 .table > thead > tr.active > th,
 .table > tbody > tr.active > th,
 .table > tfoot > tr.active > th {
-  background-color: #0d747c;
+  background-color: #25cfed;
 }
 
 .table > thead > tr > td.success,
@@ -1723,7 +1726,7 @@ legend {
   line-height: inherit;
   color: #ffffff;
   border: 0;
-  border-bottom: 1px solid #0d747c;
+  border-bottom: 1px solid #1be7f6;
 }
 
 label {
@@ -4938,7 +4941,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   padding: 8px 15px;
   margin-bottom: 20px;
   list-style: none;
-  background-color: #13a0aa;
+  background-color: #d5da5d;
   border-radius: 4px;
 }
 
@@ -4975,7 +4978,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   margin-left: -1px;
   line-height: 1.428571429;
   text-decoration: none;
-  background-color: #13a0aa;
+  background-color: #d5da5d;
   border: 1px solid transparent;
 }
 
@@ -5018,7 +5021,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .pagination > .disabled > a:focus {
   color: #ffffff;
   cursor: not-allowed;
-  background-color: #13a0aa;
+  background-color: #d5da5d;
   border-color: transparent;
 }
 
@@ -5123,7 +5126,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .pager li > span {
   display: inline-block;
   padding: 5px 14px;
-  background-color: #13a0aa;
+  background-color: #d5da5d;
   border: 1px solid transparent;
   border-radius: 15px;
 }
@@ -5150,7 +5153,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .pager .disabled > span {
   color: #ffffff;
   cursor: not-allowed;
-  background-color: #13a0aa;
+  background-color: #d5da5d;
 }
 
 .label {
@@ -5672,7 +5675,7 @@ a.list-group-item:focus {
 
 .panel {
   margin-bottom: 20px;
-  background-color: #13a0aa;
+  background-color: #d5da5d;
   border: 1px solid transparent;
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -6023,7 +6026,7 @@ body.modal-open,
 
 .modal-content {
   position: relative;
-  background-color: #13a0aa;
+  background-color: #d5da5d;
   border: 1px solid #999999;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 6px;
@@ -7231,7 +7234,8 @@ td.visible-print {
 }
 
 .navbar-brand {
-  font-family: 'Lobster', cursive;
+  font-family: 'Times New Roman', Times, serif, cursive;
+  font-weight: bold;
 }
 
 .btn .caret {
@@ -7252,7 +7256,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lobster', cursive;
+  font-family:  'Arial Narrow Bold', sans-serif, cursive;
+  font-weight: bold;
+  /* font-size: larger; */
 }
 
 .text-primary {
@@ -7323,7 +7329,7 @@ legend {
 }
 
 .list-group-item {
-  background-color: #13a0aa;
+  background-color: #7FB7BE;
 }
 
 .popover {
